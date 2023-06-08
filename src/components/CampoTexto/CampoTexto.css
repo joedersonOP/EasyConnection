@@ -1,0 +1,54 @@
+.campo_texto {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+}
+.campo_texto__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #545454;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+.campo_texto__field::placeholder {
+    color: transparent;
+}
+.campo_texto__field:placeholder-shown ~ .campo_texto__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+}
+.campo_texto__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #9b9b9b;
+}
+.campo_texto__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #F8BD0A, #f8df7c);
+    border-image-slice: 1;
+}
+.campo_texto__field:focus ~ .campo_texto__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #F8BD0A;
+    font-weight: 700;
+}
+/* reset input */
+.campo_texto__field:required, .campo_texto__field:invalid {
+    box-shadow: none;
+}
+

@@ -1,0 +1,40 @@
+.BannerCard{
+    background: #FCE59D;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    width: calc(100% - 40px);
+}
+
+h3{
+    top: 800px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    color: #000000;
+}
+
+.BannerCard p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    color: #000000;
+}
+
+.BotaoBanner{
+        padding: 16px 16px;
+        background-color: #ffffff;
+        color: #5E5600;
+        font-size: 12px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        letter-spacing: 4px;
+        overflow: hidden;
+        transition: 0.5s;
+        cursor: pointer;
+        max-width: 300px;
+        text-transform: uppercase;
+
+}

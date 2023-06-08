@@ -1,0 +1,19 @@
+.rodape{
+    background: #ccc;
+    padding: 20px;
+    width: 100%;
+}
+
+.rodape h3{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.rodape p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.rodape h5{
+    text-align: center;
+}

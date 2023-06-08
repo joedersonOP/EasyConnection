@@ -1,0 +1,12 @@
+.Header{
+    background-color: #FCE59D;
+    padding: 20px;
+    width: 100%;
+    --bs-gutter-x: 0;
+}
+
+.Header img{
+    width: 160px;
+    height: 45px;
+}
+
